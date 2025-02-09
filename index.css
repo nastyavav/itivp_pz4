@@ -22,17 +22,13 @@ header {
     font-weight: bolder;
     color:aqua;
 }
-nav ul {
-    list-style-type: none;
+nav {
+    margin: 0;
     padding: 0;
+    list-style: none;
 }
-
-nav ul li {
-    display: inline;
-    margin: 0.1em;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
+.menu {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
 }
