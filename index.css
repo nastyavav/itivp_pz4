@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Cairo-Regular';
+    src: url('fonts/Cairo-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Cairo-ExtraBold';
+    src: url('fonts/Cairo-ExtraBold.ttf') format('truetype');
+}
+logo {
+    font-family: 'Cairo-ExtraBold';
+    font-size: 24px;
+}
