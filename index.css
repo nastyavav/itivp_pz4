@@ -10,8 +10,29 @@
     font-family: 'Montserrat';
     src: url('fonts/Montserrat-Regular.ttf') format('truetype');
 }
+header {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
 .logo {
     font-family: 'Montserrat';
     font-size: 50px;
     font-weight: bolder;
+    color:aqua;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0.1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
