@@ -18,18 +18,19 @@
                     <li><a href="projects">проекты</a></li>
                 </ul>
             </nav>
-            <a href="contact" class="contact-button">свяжитесь с нами</a>
+            <a href="#contact-form" class="contact-button">свяжитесь с нами</a>
         </div>
     </header>
     <main class="container-background">
         <div class="container-text">
-            <h1 class="rectangle">
+            <div class="rectangle"></div>
+            <h1>
                 Разработка IT-решений<br>для вашего бизнеса
             </h1>
         </div>
         <section>
             <h2>Каковы наши цели?</h2>
-            <div>
+            <div class="container-goals">
                 <div class="goal">
                     <h3>01</h3>
                     <p>Повышение эффективности бизнес-процессов</p>
@@ -37,19 +38,19 @@
                         Разработка ПО и IT-решений, которые<br>автоматизируют рутинные задачи,<br>упрощают управление и оптимизируют<br>операционные процессы, помогая клиентам<br>сократить время и затраты.
                     </p>
                 </div>
-                <img />
+                <img src="image/goal1.jpg" class="img-goal"/>
             </div>
-            <div>
+            <div class="container-goals">
                 <div class="goal">
                     <h3>02</h3>
                     <p>Увеличение клиентского опыта</p>
                     <p>
-                        Создание пользовательских интерфейсов и взаимодействий,<br>которые делают услуги и продукты компании более доступными,<br>удобными и приятными для конечных пользователей.<br>Это включает в себя разработку мобильных приложений,<br>веб-сайтов и CRM-систем.
+                        Создание пользовательских интерфейсов<br>и взаимодействий, которые делают услуги и продукты<br>компании более доступными,<br>удобными и приятными для конечных пользователей.
                     </p>
                 </div>
-                <img />
+                <img src="image/goal2.jpg" class="img-goal"/>
             </div>
-            <div>
+            <div class="container-goals">
                 <div class="goal">
                     <h3>03</h3>
                     <p>Обеспечение безопасности данных</p>
@@ -57,12 +58,33 @@
                         Разработка и внедрение решений для защиты<br>конфиденциальной информации и данных клиентов.<br>Это включает в себя меры по предотвращению<br>кибератак, защиту от несанкционированного доступа и<br>обеспечение соответствия нормативным требованиям.
                     </p>
                 </div>
-                <img src="image/security2.jpg" />
+                <img src="image/goal3.jpg" class="img-goal"/>
+            </div>
+        </section>
+        <section id="contact-form" class="contact-form">
+            <div class="contact-left">
+                <h1 class="form-title">Свяжитесь<br>с нами</h1>
+                <form>
+                    <input type="text" placeholder="Введите своё ФИО">
+                    <input type="email" placeholder="Введите свой e-mail">
+                    <input type="tel" placeholder="Введите свой номер телефона">
+                    <textarea placeholder="Опишите свой проект"></textarea>
+                    <button type="submit" class="submit-button">Подать заявку -></button>
+                </form>
+            </div>
+            <div class="contact-right">
+                <p class="text-form">
+                    Просто введите свой адрес электронной почты в форме<br>
+                    или свяжитесь с нами по почте – <a href="mailto:vavrinovicha@gmail.com">ideasoft@gmail.com</a> –<br>
+                    и один из наших специалистов свяжется с вами.<br>
+                    Это может стать началом прекрасного сотрудничества<br>
+                    и самым простым способом обрести высокоопытную команду.
+                </p>
             </div>
         </section>
     </main>
     <footer>
-
+        
     </footer>
 </body>
 </html>
