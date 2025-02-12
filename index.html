@@ -12,13 +12,13 @@
             <div class="logo">IDEA<br>SOFT</div>
             <nav>
                 <ul class="menu">
-                    <li><a href="home">главная</a></li>
-                    <li><a href="about">о компании</a></li>
-                    <li><a href="services">услуги</a></li>
-                    <li><a href="projects">проекты</a></li>
+                    <li><a href="">главная</a></li>
+                    <li><a href="about.html">о компании</a></li>
+                    <li><a href="services.html">услуги</a></li>
+                    <li><a href="projects.html">проекты</a></li>
                 </ul>
             </nav>
-            <a href="#contact-form" class="contact-button">свяжитесь с нами</a>
+            <a href="#contact-form" class="contact-button">СВЯЖИТЕСЬ С НАМИ <span>↗</span></a>
         </div>
     </header>
     <main class="container-background">
@@ -62,29 +62,59 @@
             </div>
         </section>
         <section id="contact-form" class="contact-form">
-            <div class="contact-left">
-                <h1 class="form-title">Свяжитесь<br>с нами</h1>
-                <form>
-                    <input type="text" placeholder="Введите своё ФИО">
-                    <input type="email" placeholder="Введите свой e-mail">
-                    <input type="tel" placeholder="Введите свой номер телефона">
+            <div class="form-container">
+                <div class="contact-left">
+                    <h1 class="form-title">Свяжитесь<br>с нами</h1>
+                    <form>
+                        <input type="text" placeholder="Введите своё ФИО">
+                        <input type="email" placeholder="Введите свой e-mail">
+                        <input type="tel" placeholder="Введите свой номер телефона">
+                        <button type="submit" class="submit-button">Подать заявку ⭢</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <p class="text-form">
+                        Просто введите свой адрес электронной почты в форме<br>
+                        или свяжитесь с нами по почте – <a href="mailto:ideasoft@gmail.com">ideasoft@gmail.com</a> –<br>
+                        и один из наших специалистов свяжется с вами.<br>
+                        Это может стать началом прекрасного сотрудничества<br>
+                        и самым простым способом обрести высокоопытную команду.
+                    </p>
                     <textarea placeholder="Опишите свой проект"></textarea>
-                    <button type="submit" class="submit-button">Подать заявку -></button>
-                </form>
-            </div>
-            <div class="contact-right">
-                <p class="text-form">
-                    Просто введите свой адрес электронной почты в форме<br>
-                    или свяжитесь с нами по почте – <a href="mailto:vavrinovicha@gmail.com">ideasoft@gmail.com</a> –<br>
-                    и один из наших специалистов свяжется с вами.<br>
-                    Это может стать началом прекрасного сотрудничества<br>
-                    и самым простым способом обрести высокоопытную команду.
-                </p>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-        
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h2 class="logo">IDEA <br> SOFT</h2>
+                <a href="mailto:ideasoft@gmail.com" class="email">ideasoft@gmail.com</a>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/nastyavav_"><img src="instagram.png" alt="Instagram"></a>
+                    <a href="https://t.me/Kerik_06"><img src="telegram.png" alt="Telegram"></a>
+                    <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+                </div>
+                <a href="#contact-form" class="contact-button">СВЯЖИТЕСЬ С НАМИ <span>↗</span></a>
+            </div>
+            <div class="footer-column">
+                <h3>наш офис</h3>
+                <p><a href="#" class="location">В Минске</a></p>
+                <p>+375 (29) 675-12-22</p>
+                <p>ул. Комсомольская 44, 5 этаж, кабинет 522</p>
+            </div>
+            <div class="footer-column">
+                <h3>услуги</h3>
+                <ul>
+                    <li><a href="#">Техническая поддержка</a></li>
+                    <li><a href="#">Frontend разработка</a></li>
+                    <li><a href="#">Backend разработка</a></li>
+                    <li><a href="#">Разработка мобильных приложений</a></li>
+                    <li><a href="#">UI/UX дизайн</a></li>
+                    <li><a href="#">Разработка ПО</a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
