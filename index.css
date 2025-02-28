@@ -23,6 +23,9 @@ html, body {
     flex-direction: column;
     overflow-x: hidden;
 }
+.body2 {
+    padding-top: 80px;
+}
 .container {
     max-width: 1300px;
     margin: 0 auto;
@@ -187,11 +190,21 @@ h3 + p + p {
     margin-bottom: 20px;
 }
 
+.text-form a {
+    color: white;
+}
+
+.text-form a:hover {
+    color: #a3a3d9;
+}
+
 .contact-right textarea {
     height: 120px;
 }
 
 .submit-button {
+    width: 250px;
+    height: 50px;
     background: white;
     color: #2E2BD0;
     padding: 15px 30px;
@@ -206,18 +219,18 @@ h3 + p + p {
 }
 
 .submit-button:hover {
-    background: rgb(241, 241, 241);
+    background: rgb(213, 213, 213);
 }
 
 /* HEADER */
-header {
+.header1 {
     position: relative;
     color: white;
     padding: 1em 0;
     text-align: center;
     margin-bottom: 100px;
 }
-header::after {
+.header1::after {
     content: "";
     position: absolute;
     bottom: -5px;
@@ -226,23 +239,29 @@ header::after {
     height: 1px;
     background: rgb(255, 255, 255);
 }
+
 .header2 {
     position: fixed;
-    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
     color: #2F353F;
     padding: 1em 0;
     text-align: center;
-    margin-bottom: 100px;
+    z-index: 1000;
 }
+
 .header2::after {
     content: "";
     position: absolute;
-    bottom: -5px;
+    bottom: 0;
     left: 2.5%;
     width: 95%;
     height: 1px;
-    background: #2F353F;
+    background-color: #2F353F;
 }
+
 .logo {
     font-family: 'Cairo-ExtraBold';
     line-height: 1;
@@ -529,10 +548,11 @@ ul li a {
 }
 
 .img-people {
+    display: block;
     width: 80px;
     height: 80px;
     align-items: left;
-    margin-top: 50px;
+    margin-top: 40px;
     object-fit: cover;
     border:2px solid #2E2BD0;
     border-radius: 100px;
@@ -632,15 +652,15 @@ ul li a {
     overflow: hidden;
 }
 
-.project:nth-child(1) {
+.project-wrapper:nth-of-type(1) .project {
     background-image: url('image/project1.jpg');
 }
 
-.project:nth-child(2) {
+.project-wrapper:nth-of-type(2) .project {
     background-image: url('image/project2.jpg');
 }
 
-.project:nth-child(3) {
+.project-wrapper:nth-of-type(3) .project {
     background-image: url('image/project3.jpg');
 }
 
