@@ -16,11 +16,11 @@
 }
 
 /* BODY */
-html, body {
-    height: 100%;
-    margin: 0;
+body {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    margin: 0;
     overflow-x: hidden;
 }
 .body2 {
@@ -34,7 +34,7 @@ html, body {
     justify-content: space-between;
 }
 main {
-    flex-grow: 1;
+    flex: 1;
     padding-bottom: 64px;
 }
 .container-background {
@@ -225,15 +225,18 @@ h3 + p + p {
 /* HEADER */
 .header1 {
     position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
     color: white;
     padding: 1em 0;
     text-align: center;
-    margin-bottom: 100px;
+    z-index: 1000;
 }
 .header1::after {
     content: "";
     position: absolute;
-    bottom: -5px;
+    bottom: 0;
     left: 2.5%;
     width: 95%;
     height: 1px;
@@ -328,14 +331,12 @@ nav {
 
 /* FOOTER */
 .footer {
-    position: relative;
     bottom: 0;
     width: 100%;
     background: #ffffff;
     padding: 40px 60px;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    clear: both;
 }
 
 .footer-container {
