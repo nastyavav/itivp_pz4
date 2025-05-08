@@ -7,27 +7,39 @@
     <link href="index.css" rel="stylesheet">
 </head>
 <body>
-    <header class="header1">
+    <nav class="header1">
         <div class="container">
             <div class="logo">IDEA<br>SOFT</div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="">главная</a></li>
-                    <li><a href="about.html">о компании</a></li>
-                    <li><a href="services.html">услуги</a></li>
-                    <li><a href="projects.html">проекты</a></li>
-                </ul>
-            </nav>
-            <a href="#contact-form" class="contact-button">СВЯЖИТЕСЬ С НАМИ <span>↗</span></a>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-icon">
+                <img src="image/menu.webp" alt="Burger Menu" class="burger-img" loading="lazy">
+            </label>
+            <ul class="menu">
+                <li><a href="index.html">главная</a></li>
+                <li><a href="about.html">о компании</a></li>
+                <li><a href="services.html">услуги</a></li>
+                <li><a href="projects.html">проекты</a></li>
+            </ul>
+            
+            <a href="index.html#contact-form" class="contact-button">СВЯЖИТЕСЬ С НАМИ <span>↗</span></a>
+            <a href="index.html#contact-form" class="contact-button-img">
+                <img src="image/contact.webp" alt="Свяжитесь с нами" loading="lazy">
+            </a>
         </div>
+    </nav>
+   
+    <header>
+        <section class="container-background">
+            <div class="container-text">
+                <div class="rectangle"></div>
+                <h1>
+                    Разработка IT-решений<br>для вашего бизнеса
+                </h1>
+            </div>
+        </section>
     </header>
-    <main class="container-background">
-        <div class="container-text">
-            <div class="rectangle"></div>
-            <h1>
-                Разработка IT-решений<br>для вашего бизнеса
-            </h1>
-        </div>
+    <main>
         <section>
             <h2>Каковы наши цели?</h2>
             <div class="container-goals">
@@ -38,7 +50,7 @@
                         Разработка ПО и IT-решений, которые<br>автоматизируют рутинные задачи,<br>упрощают управление и оптимизируют<br>операционные процессы, помогая клиентам<br>сократить время и затраты.
                     </p>
                 </div>
-                <img src="image/goal1.jpg" class="img-goal"/>
+                <img src="image/goal1.webp" class="img-goal" loading="lazy"/>
             </div>
             <div class="container-goals">
                 <div class="goal">
@@ -48,7 +60,7 @@
                         Создание пользовательских интерфейсов<br>и взаимодействий, которые делают услуги и продукты<br>компании более доступными,<br>удобными и приятными для конечных пользователей.
                     </p>
                 </div>
-                <img src="image/goal2.jpg" class="img-goal"/>
+                <img src="image/goal2.webp" class="img-goal" loading="lazy"/>
             </div>
             <div class="container-goals">
                 <div class="goal">
@@ -58,7 +70,7 @@
                         Разработка и внедрение решений для защиты<br>конфиденциальной информации и данных клиентов.<br>Это включает в себя меры по предотвращению<br>кибератак, защиту от несанкционированного доступа и<br>обеспечение соответствия нормативным требованиям.
                     </p>
                 </div>
-                <img src="image/goal3.jpg" class="img-goal"/>
+                <img src="image/goal3.webp" class="img-goal" loading="lazy"/>
             </div>
         </section>
         <section id="contact-form" class="contact-form">
@@ -88,14 +100,14 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-column">
-                <h2 class="logo">IDEA<br>SOFT</h2>
+                <h2 class="logo3">IDEA<br>SOFT</h2>
                 <a href="mailto:vavrinovicha@gmail.com" class="email">ideasoft@gmail.com</a>
                 <div class="social-icons">
-                    <a href="https://www.instagram.com/nastyavav_"><img src="image/instagram.png" alt="Instagram"></a>
-                    <a href="https://t.me/Kerik_06"><img src="image/telegram.png" alt="Telegram"></a>
-                    <a href="#"><img src="image/linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://www.instagram.com/nastyavav_"><img src="image/instagram.webp" alt="Instagram" loading="lazy"></a>
+                    <a href="https://t.me/Kerik_06"><img src="image/telegram.webp" alt="Telegram" loading="lazy"></a>
+                    <a href="#"><img src="image/linkedin.webp" alt="LinkedIn" loading="lazy"></a>
                 </div>
-                <a href="index.html#contact-form" class="contact-button">СВЯЖИТЕСЬ С НАМИ <span>↗</span></a>
+                <a href="index.html#contact-form" class="contact-button footer-button">СВЯЖИТЕСЬ С НАМИ <span>↗</span></a>
             </div>
             <div class="footer-column">
                 <h3>наш офис</h3>
